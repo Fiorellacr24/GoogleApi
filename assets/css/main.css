@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.form-inline .form-control{
+    display: -webkit-inline-box;
+}
+.form-search{
+    background-color: #ff7043;
+    padding: 10px 15px;
+}
+.form-group i{
+    margin-right: 10px;
+    color: white;
+    font-size: 18px;
+}
+.form-search input{
+    background-color: transparent;
+    width: 80% !important;
+    border: 2px solid dimgray;
+}
+.form-control::-webkit-input-placeholder{
+    color: white;
+}
+.row div:nth-child(3){
+    border-right: 2px solid #fff;
+}
+.btn-gray{
+    background-color: dimgray;
+    color: white !important;
+    border: 2px solid lavender;
+}
+.btn-gray:hover{
+    color: white;
+    background-color: gray;
+}
+div#map{
+    width: 100%;
+    height: 90vh;
+}
+div#tarifa{
+    background-color: #ffd54f;
+    border: 2px solid dimgray;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    font-size: 40px;
+    padding: 40px;
+}
+.none{
+    display: none;
+}

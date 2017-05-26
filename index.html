@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Encuéntrame</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/main.css" media="screen" title="no title">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    </head>
+    <body>        
+        <div class="row form-search text-center">   
+            <form class="form-inline">
+                <div class="form-group col-md-4 col-xs-12">
+                    <i class="glyphicon glyphicon-record"></i>
+                    <input type="text" name="partida" id="punto-partida" class="form-control" value="" placeholder="Ingresa tu punto de partida">
+                </div>
+                <div class="form-group col-md-4 col-xs-12">
+                    <i class="glyphicon glyphicon-send"></i>
+                    <input type="search" name="destino" id="punto-destino" class="form-control" value="" placeholder="Ingresa tu destino">
+                </div>
+                <div class="col-md-2 col-xs-6">
+                    <button id="trazar-ruta" type="reset" class="btn btn-gray">Trazar ruta</button>
+                </div>
+                <div class="col-md-2 col-xs-6">
+                    <button id="encuentrame" type="reset" class="btn btn-gray">Encuéntrame</button>
+                </div>
+            </form>
+        </div>
+        <div id="map"></div>
+        <div id="tarifa" class="none"></div>
+        <script src="assets/js/jquery-3.1.1.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/app.js"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBdTpBRC5TSATvPUXzfBV4utB1zfDQKpV8&callback=initMap&libraries=places">
+        </script>
+    </body>
+</html>
